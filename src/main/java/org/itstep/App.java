@@ -79,9 +79,9 @@ public class App extends Application {
         textField.relocate(1450, 630);
 
         // кнопки
-        Button button_het = new Button("HET");
-        button_het.setFont(Font.font("Arial", 45));
-        button_het.relocate(1525, 230);
+        Button button_hit = new Button("HIT");
+        button_hit.setFont(Font.font("Arial", 45));
+        button_hit.relocate(1525, 230);
         Button button_stand = new Button("STAND");
         button_stand.setFont(Font.font("Arial", 45));
         button_stand.relocate(1500, 360);
@@ -107,13 +107,13 @@ public class App extends Application {
         rootNode.getChildren().add(label_cash);
         rootNode.getChildren().add(label_bet);
         //rootNode.getChildren().add(imageView);
-        rootNode.getChildren().add(button_het);
+        rootNode.getChildren().add(button_hit);
         rootNode.getChildren().add(button_stand);
         rootNode.getChildren().add(button_play);
         rootNode.getChildren().add(textField);
 
         // создать сцену
-        Scene scene = new Scene(rootNode, 640, 480);
+        Scene scene = new Scene(rootNode, 1920, 1010);
 
         // установить сцену в окне
         stage.setScene(scene);
